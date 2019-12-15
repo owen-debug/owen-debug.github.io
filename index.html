@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+     <head>
+           <meta charset="UTF-8">
+           <title></title>
+           <style type="text/css">
+                body{background: #06081B;
+                     perspective: 5000px;
+                }
+                .show{perspective: 5000px;
+                     -webkit-transform: rotateX(-45deg);
+                     -moz-transform: rotateX(-45deg);
+                     transform: rotateX(-45deg);
+                     transform-style: preserve-3d;
+  
+                }
+                .box{
+  
+                     position: relative;width: 150px;height: 250px;border: 1px solid red;
+                     margin: 300px auto;
+                     transform-style: preserve-3d;
+  
+                      -webkit-animation: rotate1 10s linear infinite;
+                     -moz-animation: rotate1 10s linear infinite;
+                     animation: rotate1 10s linear infinite;
+  
+                }
+                .box img{width: 150px;height: 250px;border: 1px solid #ccc;position: absolute;
+                     left: 0;top: 0;
+  
+  
+                     -webkit-box-reflect: below 20px -webkit-linear-gradient(top,rgba(250,250,250,0),rgba(250,250,250,0) 30%,rgba(250,250,250,0.5));
+  
+                }
+  
+                .img1{
+                     -webkit-transform: translateZ(300px);
+                     -moz-transform: translateZ(300px);
+                     transform: translateZ(300px);
+                }
+  
+                .img2{
+                     -webkit-transform:rotateY(36deg) translateZ(300px) ;
+                     -moz-transform:rotateY(36deg) translateZ(300px) ;
+                     transform:rotateY(36deg) translateZ(300px) ;
+                }
+                .img3{
+                     -webkit-transform:rotateY(72deg) translateZ(300px);
+                     -moz-transform:rotateY(72deg)g) translateZ(300px) ;
+                     transform:rotateY(72deg) (300px) ;
+                }
+                .img4{
+                     -webkit-transform: rotateY(108deg) translateZ(300px);
+                     -moz-transform:rotateY(108deg) translateZ(300px) ;
+                     transform:rotateY(108deg) translateZ(300px) ;
+                }
+  
+                .img5{
+                     -webkit-transform: rotateY(144deg) translateZ(300px);
+                     -moz-transform:rotateY(144deg) translateZ(300px) ;
+                     transform:rotateY(144deg) translateZ(300px) ;
+                }
+                .img6{
+                     -webkit-transform:rotateY(180deg) translateZ(300px) ;
+                     -moz-transform:rotateY(180deg) translateZ(300px) ;
+                     transform:rotateY(180deg) translateZ(300px) ;
+                }
+  
+                .img7{
+                     -webkit-transform:rotateY(216deg) translateZ(300px) ;
+                     -moz-transform:rotateY(216deg) translateZ(300px) ;
+                     transform: rotateY(216deg) translateZ(300px);
+                }
+  
+                .img8{
+                     -webkit-transform:rotateY(252deg) translateZ(300px) ;
+                     -moz-transform:rotateY(252deg) translateZ(300px) ;
+                     transform:rotateY(252deg) translateZ(300px) ;
+                }
+  
+                .img9{
+                     -webkit-transform:rotateY(288deg) translateZ(300px) ;
+                     -moz-transform:rotateY(288deg) translateZ(300px) ;
+                     transform:rotateY(288deg) translateZ(300px) ;
+                }
+  
+                .img10{
+                     -webkit-transform:rotateY(324deg) translateZ(300px) ;
+                     -moz-transform:rotateY(324deg) translateZ(300px) ;
+                     transform:rotateY(324deg) translateZ(300px) ;
+                }
+  
+  
+                @-moz-keyframes rotate1{
+                     0%{
+                           -webkit-transform: rotateY(0deg);
+                           -moz-transform: rotateY(0deg);
+                           transform: rotateY(0deg);
+                     }
+                     100%{
+                           -webkit-transform: rotateY(360deg);
+                           -moz-transform: rotateY(360deg);
+                           transform: rotateY(360deg);
+                     }
+                }
+                @-webkit-keyframes rotate1{
+                     0%{
+                           -webkit-transform: rotateY(0deg);
+                           -moz-transform: rotateY(0deg);
+                           transform: rotateY(0deg);
+                     }
+                     100%{
+                           -webkit-transform: rotateY(360deg);
+                           -moz-transform: rotateY(360deg);
+                           transform: rotateY(360deg);
+                     }
+                }
+           </style>
+     </head>
+     <body>
+           <div class="show">
+                <div class="box">
+                     <img src="http://pic5.nipic.com/20091228/1951702_000450996594_2.jpg" class="img1"/>
+                     <img src="https://img.kanjian.com/group3/M00/0A/ED/wKhkGVUreU2AQP7FAAkmDPthpDM609.jpg" class="img2"/>
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433271970&di=ef96ad2a7e6c1768915097c0a7527eb4&imgtype=0&src=http%3A%2F%2Fimg.baizhan.net%2Fuploads%2Fallimg%2F170321%2F39_170321100520_1.jpg" class="img3" />
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433271969&di=0d76a3d4e2da3d018667102c32d10a37&imgtype=0&src=http%3A%2F%2Fd.hiphotos.baidu.com%2Fzhidao%2Fpic%2Fitem%2Fae51f3deb48f8c5457b93ee538292df5e1fe7f96.jpg" class="img4" />
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433271966&di=a8ecd593bff09b176c9e7b7c22e12e40&imgtype=0&src=http%3A%2F%2Fdingyue.ws.126.net%2FKEbx5xms6gJjdM4wQQv6I7j4FPYEqOkx8kx3TtxBRN9Au1550308803435compressflag.jpg" class="img5"/>
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433337257&di=f23091adc45f8b9607e077ea995759f4&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F20171024%2Fri6E-fymzqpq3812675.jpg" class="img6"/>
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433337478&di=a340dcd0893a9e8a5e670888e3798e97&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2Fk7CNIYepaHP3gBqN4cm%3DC6wcgtpvfOYNJHix3G%3Dubnh7l1473479737835.jpg" class="img7" />
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433337477&di=5070a984c488b89347cb509c5efe243c&imgtype=0&src=http%3A%2F%2Fdingyue.nosdn.127.net%2FkKpx4qaQgj507%3DNTK1SkXWTI60L2pDb1Te3bYpaFodxfa1539754236195compressflag.jpg" class="img8" />
+                     <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1575433337475&di=9f57f6de51483549eec66d0f11a58e73&imgtype=0&src=http%3A%2F%2Fimg2.17getfun.com%2FAAABVFFQ56SyTd0v.JPEG" class="img9" />
+                     <img src="http://img.hc360.com/cloth/info/images/201005/201005141331427545.jpg" class="img10" />
+                
+                </div>
+           </div>
+     </body>
+</html>
